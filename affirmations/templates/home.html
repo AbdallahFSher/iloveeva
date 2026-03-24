@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.4/dist/semantic.min.css">
+<script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.4/dist/semantic.min.js"></script>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'affirmations/home.css' %}">
+
+<html>
+    <body>
+
+        <div class="ui menu">
+            <div class="header center aligned item">
+                Affirmations for Eva
+            </div>
+        </div>
+
+        <div class="ui center aligned text container" id="main">
+            <h1>
+                {{ affirmation.text }}
+            </h1>
+        </div>
+
+        <div class="ui three column grid container">
+
+            <img src="{% static 'affirmations/gifs/hatsune-miku-dance.gif' %}" alt="Dancing Miku" style="position: fixed; bottom: 0; right: 0; width: 200px; height: auto; z-index: 1000;">
+
+            <img src="{% static 'affirmations/gifs/catdance.gif' %}" alt="Dancing Cat" style="position: fixed; bottom: 0; left: 0; width: 200px; height: auto; z-index: 1000;">
+
+        </div>
+    </body>
+</html>
