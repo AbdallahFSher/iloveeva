@@ -1,0 +1,23 @@
+{
+  "name": "iloveeva",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/AbdallahFSher/iloveeva#readme",
+  "bugs": {
+    "url": "https://github.com/AbdallahFSher/iloveeva/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdallahFSher/iloveeva.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "home.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "fomantic-ui": "^2.9.4"
+  }
+}
